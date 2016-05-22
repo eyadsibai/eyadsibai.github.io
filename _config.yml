@@ -35,9 +35,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://eyad.ninja" # the base hostname & protocol for your site
 
 google_analytics: UA-63062327-1
-repo: eyadsibai/eyadsibai.github.io
-repository: eyadsibai/eyadsibai.github.io
-
 disqus_site_shortname: "eyadsibai"
 
 # Author settings
