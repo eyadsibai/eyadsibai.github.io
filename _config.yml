@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Build settings
+permalink   : /blog/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+gems: [jekyll-paginate]
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+# source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# Site settings
+title: eyad.ninja
+# email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  data in motion ... data at rest
+keywords: "data, eyad, sibai, machine learning"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://eyad.ninja" # the base hostname & protocol for your site
+
+google_analytics: UA-63062327-1
+repo: eyadsibai/eyadsibai.github.io
+repository: eyadsibai/eyadsibai.github.io
+
+disqus_site_shortname: "eyadsibai"
+
+# Author settings
+author:
+  name      : Eyad Sibai
+  job       : Machine Learning Engineer
+  bio       : "Software engineer building reliable machine learning pipelines. Always looking for data to analyze and model whether it is in motion or at rest, in-memory or distributed. Currently working at iZettle based in Stockholm, Sweden."
+  thumb     : /images/author.jpg
+  email     : mail@eyad.ninja
+  url       : http://eyad.ninja
+  github    : http://github.com/eyadsibai
+  twitter   : http://twitter.com/eyadsibai
+#  facebook  : http://facebook.com/fernando.dev
+  linkedin  : http://linkedin.com/in/eyadsibai
+
+# navbar pages
+navbar:
+#  - slug: about
+#    title: About
+  # - slug: resume
+  #   title: Resume
+  # - slug: skills
+  #   title: Skills
+  - slug: blog
+    title: Blog
