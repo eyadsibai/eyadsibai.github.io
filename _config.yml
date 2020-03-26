@@ -26,34 +26,34 @@ sass:
   style: compressed # expanded
 
 # Site settings
-title: eyad.ninja
+title: eyad.ai
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   data in motion ... data at rest
 keywords: "data, eyad, sibai, machine learning"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://eyad.ninja" # the base hostname & protocol for your site
+url: "http://eyad.ai" # the base hostname & protocol for your site
 
 google_analytics: UA-63062327-1
 disqus_site_shortname: "eyadsibai"
 
 # Author settings
 author:
-  name      : Eyad Sibai
-  job       : Machine Learning Engineer
-  bio       : "Software engineer building reliable machine learning pipelines. Always looking for data to analyze and model whether it is in motion or at rest, in-memory or distributed. Currently working at iZettle based in Stockholm, Sweden."
-  thumb     : /images/author.jpg
-  email     : mail@eyad.ninja
-  url       : http://eyad.ninja
-  github    : http://github.com/eyadsibai
-  twitter   : http://twitter.com/eyadsibai
-#  facebook  : http://facebook.com/fernando.dev
-  linkedin  : http://linkedin.com/in/eyadsibai
+  name: Eyad Sibai
+  job: Machine Learning Engineer
+  bio: "Software engineer building reliable machine learning pipelines. Always looking for data to analyze and model whether it is in motion or at rest, in-memory or distributed. Currently working at iZettle based in Stockholm, Sweden."
+  thumb: /images/author.jpg
+  # email: mail@eyad.ninja
+  url: http://eyad.ai
+  github: http://github.com/eyadsibai
+  twitter: http://twitter.com/eyadsibai
+  #  facebook  : http://facebook.com/fernando.dev
+  linkedin: http://linkedin.com/in/eyadsibai
 
 # navbar pages
 navbar:
-#  - slug: about
-#    title: About
+  #  - slug: about
+  #    title: About
   # - slug: resume
   #   title: Resume
   # - slug: skills
